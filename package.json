@@ -1,0 +1,14 @@
+{
+  "name": "algocasts",
+  "version": "1.0.0",
+  "description": "Companion repo to a course on Udemy.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Ocampo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
