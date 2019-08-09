@@ -9,9 +9,9 @@
 
 function palindrome(str) {
 
-    const rev = str.split('').reverse().join('');
-    return rev === str
-
+    return str.split('').forEach((char , i)=>{
+        return char === str[str[str.length - i -1]]
+    })
 
 }
 
